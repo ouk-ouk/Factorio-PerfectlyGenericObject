@@ -1,11 +1,11 @@
 {
-    "name": "PerfectlyGenericObject",
-    "version": "1.15.0",
-    "title": "Perfectly Generic Object",
-    "author": "<NO_NAME>",
-    "contact": "",
-    "homepage": "",
-    "factorio_version": "0.15",
-    "dependencies": ["base >= 0.15"],
-    "description": "A free to make and easy to destroy placeholder item. It can be used to fill dead ends of belts and splitters to not waste other items."
+	"name": "PerfectlyGenericObject",
+	"version": "1.15.1",
+	"title": "Perfectly Generic Object",
+	"author": "<NO_NAME>",
+	"contact": "",
+	"homepage": "",
+	"factorio_version": "0.15",
+	"dependencies": ["base >= 0.15"],
+	"description": "A free to make and easy to destroy placeholder item. It can be used to fill dead ends of belts and splitters to not waste other items."
 }
