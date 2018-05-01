@@ -17,13 +17,17 @@ data:extend(
 		icon_size = 32,
 		ingredients =
 		{
-			{"perfectly-generic-object", 1}
+			{name = "perfectly-generic-object", amount = 1}
 		},
-		result = "perfectly-generic-object",
-		result_count = 0,
+		results = 
+		{
+			{name = "what-pumpkin", amount = 1, probability = 0.0}
+		},
 		main_product= "",
 		subgroup = "belt",
 		order = "e[perfectly-generic-object]-b[remove-perfectly-generic-object]",
+		allow_as_intermediate = false,
+		allow_intermediates = false
 	}
 }
 )

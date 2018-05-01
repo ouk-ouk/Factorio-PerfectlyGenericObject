@@ -9,6 +9,14 @@ data:extend(
 		order = "e[perfectly-generic-object]-a[perfectly-generic-object]",
 		stack_size = 255,
 		subgroup = "belt"
+	},
+	{
+		type = "item",
+		name = "what-pumpkin",
+		icon = "__PerfectlyGenericObject__/graphics/icons/pumpkin.png",
+		icon_size = 32,
+		flags = {},
+		stack_size = 1
 	}
 }
 )
