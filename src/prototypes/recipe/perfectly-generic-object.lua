@@ -6,7 +6,10 @@ data:extend(
 		enabled = true,
 		energy_required = 0.1,
 		ingredients = {},
-		result = "perfectly-generic-object"
+		results =
+		{
+			{type = "item", name = "perfectly-generic-object", amount = 1}
+		}
 	},
 	{
 		type = "recipe",
@@ -17,11 +20,11 @@ data:extend(
 		icon_size = 32,
 		ingredients =
 		{
-			{name = "perfectly-generic-object", amount = 1}
+			{type = "item", name = "perfectly-generic-object", amount = 1}
 		},
 		results = 
 		{
-			{name = "what-pumpkin", amount = 1, probability = 0.0}
+			{type = "item", name = "what-pumpkin", amount = 1, probability = 0.0, percent_spoiled = 0.1}
 		},
 		main_product= "",
 		subgroup = "belt",

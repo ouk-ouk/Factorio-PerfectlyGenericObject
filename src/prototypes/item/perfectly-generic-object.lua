@@ -14,7 +14,7 @@ data:extend(
 		name = "what-pumpkin",
 		icon = "__PerfectlyGenericObject__/graphics/icons/pumpkin.png",
 		icon_size = 32,
-		flags = {"hidden"},
+		hidden = true,
 		stack_size = 1
 	}
 }
