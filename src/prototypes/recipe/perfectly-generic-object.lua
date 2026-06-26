@@ -24,7 +24,7 @@ data:extend(
 		},
 		results = 
 		{
-			{type = "item", name = "what-pumpkin", amount = 1, probability = 0.0, percent_spoiled = 0.1}
+			{type = "item", name = "what-pumpkin", amount = 1, independent_probability = 0.0, percent_spoiled = 0.1}
 		},
 		main_product= "",
 		subgroup = "belt",
